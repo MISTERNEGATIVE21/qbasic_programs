@@ -1,0 +1,16 @@
+if(__SINGLE_N==NULL){
+__SINGLE_N=(float*)mem_static_malloc(4);
+*__SINGLE_N=0;
+}
+if(__SINGLE_A==NULL){
+__SINGLE_A=(float*)mem_static_malloc(4);
+*__SINGLE_A=0;
+}
+if(__SINGLE_R==NULL){
+__SINGLE_R=(float*)mem_static_malloc(4);
+*__SINGLE_R=0;
+}
+if(__SINGLE_S==NULL){
+__SINGLE_S=(float*)mem_static_malloc(4);
+*__SINGLE_S=0;
+}

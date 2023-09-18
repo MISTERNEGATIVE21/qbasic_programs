@@ -1,0 +1,6 @@
+if(oldstr2904){
+if(oldstr2904->fixed)qbs_set(oldstr2904,_SUB_XGOSUB_STRING_CA);
+qbs_free(_SUB_XGOSUB_STRING_CA);
+}
+qbs_free(_SUB_XGOSUB_STRING_A2);
+qbs_free(_SUB_XGOSUB_STRING_L);

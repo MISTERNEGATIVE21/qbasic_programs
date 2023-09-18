@@ -1,0 +1,20 @@
+2015Q5B.bas
+AMSTRONG NO.bas
+DOUBLELOOP.bas
+LETTER FREQUENCY IN A WORD.bas
+lower to upper case.bas
+NEW STYLE OF PALINDROME.bas
+PALINDRONE OR NOT.bas
+POPOPOPOPOP.bas
+POPOPOPOPOP.basGFG
+PRINT YOUR NAME REVEERSE IN A TRIANGLE.bas
+reverse palindrone.bas
+SEARCH THE LETTER U WANT.bas
+SERIES.bas
+SPECIAL OPEN ANDD SEEE.bas
+STYLE OF ARRT.bas
+TELEPHONEBILL.bas
+untitled(2).bas
+untitled.bas
+write a program in whixh input two nuber and print the number from max to min.bas
+yoauau.bas

@@ -1,0 +1,18 @@
+10 INPUT " KL"; A
+20 IF A <= 250 THEN
+    30 LET B = 150
+40 ELSEIF A <= 500 THEN
+    50 LET B = 150 + (A - 250) * 0.6
+60 ELSEIF A <= 700 THEN
+    70 LET B = 150 + 250 * 0.6 + (A - 500) * 0.8
+80 ELSE
+    90 LET B = 150 + 250 * 0.6 + 200 * 0.8 + (A - 700) * 1
+100 END IF
+110 PRINT B
+120 END
+
+
+
+
+
+

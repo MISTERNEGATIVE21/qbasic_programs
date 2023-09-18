@@ -1,0 +1,71 @@
+S_0:;
+do{
+qbs_print(qbs_new_txt("? "),0);
+qbs_input_variabletypes[1]=536870944;
+qbs_input_variableoffsets[1]=&(*__SINGLE_N);
+qbs_input(1,1);
+if (stop_program) end();
+qbs_cleanup(qbs_tmp_base,0);
+if(!qbevent)break;evnt(2);}while(r);
+do{
+*__SINGLE_A=*__SINGLE_N;
+if(!qbevent)break;evnt(3);}while(r);
+S_3:;
+while(((-(*__SINGLE_A> 0 )))||new_error){
+if(qbevent){evnt(4);if(r)goto S_3;}
+do{
+*__SINGLE_R=qbr(*__SINGLE_A)% 10 ;
+if(!qbevent)break;evnt(5);}while(r);
+do{
+*__SINGLE_S=*__SINGLE_S+(pow2(*__SINGLE_R, 3 ));
+if(!qbevent)break;evnt(6);}while(r);
+do{
+*__SINGLE_A=floor(*__SINGLE_A/  10 );
+if(!qbevent)break;evnt(7);}while(r);
+}
+ww_exit_214:;
+S_8:;
+if ((-(((float)(*__SINGLE_N))==((float)(*__SINGLE_S))))||new_error){
+if(qbevent){evnt(9);if(r)goto S_8;}
+do{
+tqbs=qbs_new(0,0);
+qbs_set(tqbs,qbs_add(qbs_str((float)(*__SINGLE_N)),qbs_new_txt(" ")));
+if (new_error) goto skip215;
+makefit(tqbs);
+qbs_print(tqbs,0);
+qbs_free(tqbs);
+tab();
+tqbs=qbs_new(0,0);
+qbs_set(tqbs,qbs_new_txt_len("it is a amstrong no",19));
+if (new_error) goto skip215;
+makefit(tqbs);
+qbs_print(tqbs,0);
+qbs_free(tqbs);
+skip215:
+qbs_cleanup(qbs_tmp_base,0);
+if(!qbevent)break;evnt(10);}while(r);
+}else{
+do{
+tqbs=qbs_new(0,0);
+qbs_set(tqbs,qbs_add(qbs_str((float)(*__SINGLE_N)),qbs_new_txt(" ")));
+if (new_error) goto skip216;
+makefit(tqbs);
+qbs_print(tqbs,0);
+qbs_free(tqbs);
+tab();
+tqbs=qbs_new(0,0);
+qbs_set(tqbs,qbs_new_txt_len("not a amstrong no",17));
+if (new_error) goto skip216;
+makefit(tqbs);
+qbs_print(tqbs,0);
+qbs_free(tqbs);
+skip216:
+qbs_cleanup(qbs_tmp_base,0);
+if(!qbevent)break;evnt(12);}while(r);
+}
+do{
+sub_end();
+if(!qbevent)break;evnt(14);}while(r);
+sub_end();
+return;
+}

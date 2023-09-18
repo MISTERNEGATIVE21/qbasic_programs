@@ -1,0 +1,4 @@
+if(oldstr4155){
+if(oldstr4155->fixed)qbs_set(oldstr4155,_SUB_IDEPAR_STRING_TITLE);
+qbs_free(_SUB_IDEPAR_STRING_TITLE);
+}

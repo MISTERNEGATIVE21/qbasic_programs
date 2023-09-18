@@ -1,0 +1,13 @@
+INPUT "A WORD"; A$
+LET L = LEN(A$)
+FOR X = 1 TO L
+    LET B$ = MID$(A$, X, 1) + B$
+NEXT X
+IF B$ = A$ THEN
+    PRINT B$ + " IS A PALINDRONE"
+ELSE
+    PRINT A$ + " IS NOT A PALINDRONE"
+END IF
+PRINT "THE WORDS ARE : " + A$ + " " + B$
+END
+
